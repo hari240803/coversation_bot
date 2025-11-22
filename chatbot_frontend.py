@@ -22,7 +22,7 @@ for message in st.session_state.chat_history:
 
 #6 Enter the details for chatbot input box 
      
-input_text = st.chat_input("Chat with Rahul's Bedrock Udemy Course Bot here") # **display a chat input box
+input_text = st.chat_input("ask anything you want here") # **display a chat input box
 if input_text: 
     
     with st.chat_message("user"): 
